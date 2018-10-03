@@ -6,7 +6,7 @@
     for (var i = 0; i < count; i++) {
         if (links[i].href.indexOf('geo:') > -1) {
             let latLng = links[i].href.substring(4);
-            let venueName = encodeURIComponent(links[i].innerText);
+            let venueName = links[i].getAttribute("data-address");
             if (userAgent.match(/iPad|iPhone|iPod/ig)) {
                 links[i].href = 'maps:?q=' + venueName;
             } else if (userAgent.match(/android/ig)) {
