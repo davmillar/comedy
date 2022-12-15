@@ -1,6 +1,6 @@
 // jshint esversion:6
 var me = self,
-    CACHE_NAME = 'dfwv3.6900009',
+    CACHE_NAME = 'dfwv4.20.69',
     urlsToCache = [
         '/',
         '/?utm_source=web_app_manifest',
