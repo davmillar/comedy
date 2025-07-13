@@ -1,6 +1,6 @@
 // jshint esversion:6
 var me = self,
-    CACHE_NAME = 'dfw-2024-08-25-a',
+    CACHE_NAME = 'dfw-2025-07-13-a',
     urlsToCache = [
         '/',
         '/?utm_source=web_app_manifest',
